@@ -1,0 +1,18 @@
+{
+	"editor.tabSize": 4,
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.fontSize": 14,
+	"terminal.integrated.fontSize": 14,
+	"window.zoomLevel": 1.3,
+	"files.associations": {
+		"typeinfo": "c",
+		"stdlib.h": "c",
+		"flecs.h": "c",
+		"app.h": "c",
+		"test.h": "c"
+	},
+	"terminal.integrated.env.linux": {
+		"GTK_PATH": ""
+	}
+}

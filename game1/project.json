@@ -1,0 +1,48 @@
+{
+	"id": "game1",
+	"type": "application",
+	"value": {
+		"language": "c",
+		"public": false,
+		"use": [
+			"flecs",
+			"sokol_app",
+			"sokol_gl",
+			"sokol_log",
+			"sokol_gfx",
+			"sokol_glue",
+			"sokol_imgui",
+			"sokol_shape",
+			"sokol_debugtext",
+			"cimgui"
+		]
+	},
+	"lang.c": {
+		"c-standard": "gnu99",
+		"defines": [],
+		"lib": [
+			"flecs",
+			"sokol_app",
+			"sokol_gl",
+			"sokol_log",
+			"sokol_gfx",
+			"sokol_glue",
+			"sokol_imgui",
+			"sokol_shape",
+			"sokol_debugtext",
+			"cimgui",
+			"GL",
+			"X11",
+			"Xi",
+			"Xcursor",
+			"m",
+			"stdc++"
+		],
+		"cflags": [
+			"-Werror",
+			"-Wall",
+			"-Wno-pedantic",
+			"-Wextra"
+		]
+	}
+}
